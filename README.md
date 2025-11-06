@@ -1,8 +1,7 @@
-[![CI](https://github.com/OpenNMT/CTranslate2/workflows/CI/badge.svg)](https://github.com/OpenNMT/CTranslate2/actions?query=workflow%3ACI) [![PyPI version](https://badge.fury.io/py/ctranslate2.svg)](https://badge.fury.io/py/ctranslate2) [![Documentation](https://img.shields.io/badge/docs-latest-blue.svg)](https://opennmt.net/CTranslate2/) [![Gitter](https://badges.gitter.im/OpenNMT/CTranslate2.svg)](https://gitter.im/OpenNMT/CTranslate2?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [![Forum](https://img.shields.io/discourse/status?server=https%3A%2F%2Fforum.opennmt.net%2F)](https://forum.opennmt.net/)
 
-# CTranslate2
+# Transformer Edge Accelerator
 
-CTranslate2 is a C++ and Python library for efficient inference with Transformer models.
+Transformer Edge Accelerator is a C++ and Python library for efficient inference with Transformer models.
 
 The project implements a custom runtime that applies many performance optimization techniques such as weights quantization, layers fusion, batch reordering, etc., to [accelerate and reduce the memory usage](#benchmarks) of Transformer models on CPU and GPU.
 
@@ -119,8 +118,5 @@ Executed with 4 threads on a [*c5.2xlarge*](https://aws.amazon.com/ec2/instance-
 
 Executed with CUDA 11 on a [*g5.xlarge*](https://aws.amazon.com/ec2/instance-types/g5/) Amazon EC2 instance equipped with a NVIDIA A10G GPU (driver version: 510.47.03).
 
-## Additional resources
-
-* [Documentation](https://opennmt.net/CTranslate2)
 * [Forum](https://forum.opennmt.net)
 * [Gitter](https://gitter.im/OpenNMT/CTranslate2)
